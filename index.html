@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Masteralb</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+        <div id="logo"></div>
+        <div class="formWindow signUpForm">
+            <div class="title titleSignUp">Register Form</div>
+            <form>
+                <div class="inputWrapper">
+                    <img src="img/formIconUsername.png">
+                    <input type="text" name="username" placeholder="Username"/>
+                </div><br>
+                <div class="inputWrapper">
+                    <img src="img/formIconPassword.png">
+                    <input type="password" name="password" placeholder="Password"/>
+                </div><br>
+                <div class="inputWrapper">
+                    <img src="img/formIconPassword.png">
+                    <input type="password" placeholder="Confirm Password"/>
+                </div><br>
+                <div class="inputWrapper">
+                    <img src="img/formIconEmail.png">
+                    <input type="email" name="email" placeholder="Email"/>
+                </div><br>
+
+
+                <div class="inputWrapper">
+                    <img src="img/formIconGeo.png">
+                    <select>
+                        <option value="" disabled selected>Your Location</option>
+                    </select>
+                </div>
+
+                
+                <label class="checkboxCont">I have read and accept terms of use.
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                   
+                <input type="button" class="button signUpButton" value="Sign up">
+            </form> 
+        </div>
+
+        <div class="formWindow sendMailForm">
+            <div class="title titleSendEmail">Send Email</div>
+            <form>
+                <div class="inputWrapper">
+                    <img src="img/formIconUsername.png">
+                    <input type="text" name="name" placeholder="Your Name"/>
+                </div><br>
+                <div class="inputWrapper">
+                    <img src="img/formIconEmail.png">
+                    <input type="email" name="email" placeholder="Your Email"/>
+                </div><br>
+                <div class="emailMessage">
+                    <textarea placeholder="Type your messgage" name="message"></textarea>
+                </div>
+                <label class="checkboxCont">Send copy to my email.
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <input type="button" class="button sendEmailButton" value="Send Email">
+            </form>
+        </div>
+
+        <div class="formWindow signInForm">
+            <div class="title titleSignIn">Sign In Form</div>
+            <form>
+                <div class="inputWrapper">
+                    <img src="img/formIconUsername.png">
+                    <input type="text" name="username" placeholder="Username"/>
+                </div><br>
+                <div class="inputWrapper">
+                    <img src="img/formIconPassword.png">
+                    <input type="password" name="password" placeholder="Password"/>
+                </div>
+                <label class="checkboxCont checkboxDispInline">Remember me
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <input type="button" class="button signInButton" value="Sign In">
+            </form>
+        </div>
+
+        <div class="formWindow recoverForm">
+            <div class="title titleRecover">Recover Form</div>
+            <form>
+                <div class="inputWrapper">
+                    <img src="img/formIconEmail.png">
+                    <input type="email" name="email" placeholder="Enter your Email"/>
+                </div><br>
+                <div class="inputWrapper">
+                    <img src="img/formIconPhone.png">
+                    <input type="phone" name="phoneNumber" placeholder="Enter your Phone number"/>
+                </div>
+                <input type="button" class="button recoverButton" style="float:left;" value="Send">
+                <input type="button" class="button recoverButton" style="float:right;" value="Done" disabled>
+            </form>
+
+        </div>
+
+        <div class="formWindow subscribeForm">
+            <div class="title titleSubscribe">Subscribe Form</div>
+            <form>
+                <div class="inputWrapper">
+                    <img src="img/formIconEmail.png">
+                    <input type="email" name="email" placeholder="Enter your Email"/>
+                </div>
+                <input type="button" class="button subscribeButton" value="Subscribe">
+                <input type="button" class="button unsubscribeButton" value="No, Thanks" disabled>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
